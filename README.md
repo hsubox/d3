@@ -32,8 +32,7 @@ Hover over a datapoint to see a tooltip with country's name
 
 ## Data Map
 
-I can see where all Meteorites landed on a world map
-
+Locations of landed meteorites on a world map
 
 Relative size of datapoint is related to the size of the meteorite
 
