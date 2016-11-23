@@ -62,7 +62,7 @@ d3.json("https://gist.githubusercontent.com/hsubox/58121014d2447aa241847cdb83987
       tooltip.html("<strong>Name:</strong> " + d.properties.name + "<br/>"
                    + "<strong>Coordinates:</strong> " + Math.abs(d3.format(".2f")(d.properties.reclat)) + "&deg;" + (d.properties.reclat >= 0 ? "N" : "S") + ", " + Math.abs(d3.format(".2f")(d.properties.reclong)) + "&deg;" + (d.properties.reclong >= 0 ? "E" : "W") + "<br/>"
                    + "<strong>Mass:</strong> " + d.properties.mass + "<br/>"
-                   + "<strong>Year:<strong> " + (new Date(d.properties.year)).getFullYear()
+                   + "<strong>Year:</strong> " + (new Date(d.properties.year)).getFullYear()
 
                   );
     })
